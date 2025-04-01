@@ -1,0 +1,27 @@
+form {
+    padding: 32px;
+    margin: auto;
+    width: 450px;
+    background-color: white;
+    border-radius: 8px;
+    margin-top: 32px;
+}
+
+form input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid;
+    margin-bottom: 16px;
+}
+
+form button {
+    padding: 8px 16px;
+    background-color: rgb(37, 37, 178);
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}

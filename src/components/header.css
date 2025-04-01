@@ -1,0 +1,44 @@
+header {
+    padding: 16px 64px;
+    background-color: rgb(37, 37, 178);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+header ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+header ul li button {
+    display: block;
+    padding: 8px 16px;
+    background-color: yellow;
+    color: black;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+header ul li button:hover {
+    background-color: rgb(196, 196, 86);
+    color: wh;
+}

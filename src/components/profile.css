@@ -1,0 +1,13 @@
+.profile {
+    width: 450px;
+    margin: auto;
+    padding: 32px;
+    margin-top: 32px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.profile h1 {
+    font-size: 40px;
+}
