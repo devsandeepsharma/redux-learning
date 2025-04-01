@@ -1,0 +1,31 @@
+.card {
+    padding: 32px;
+    margin: auto;
+    width: 450px;
+    background-color: rgb(213, 127, 247);
+    margin-top: 32px;
+    border-radius: 8px;
+}
+
+.card p {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card button {
+    padding: 16px;
+    border: 0;
+    background-color: brown;
+    color: white;
+    display: block;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: rgb(121, 48, 48);
+}
