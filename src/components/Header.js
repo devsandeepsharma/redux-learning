@@ -17,8 +17,8 @@ const Header = () => {
             {
                 auth && 
                 <ul>
-                    <li><a href="/">My Products</a></li>
-                    <li><a href="/">My Sales</a></li>
+                    <li>My Products</li>
+                    <li>My Sales</li>
                     <li><button onClick={handleLogout}>Logout</button></li>
                 </ul>
             }
