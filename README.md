@@ -4,18 +4,18 @@ This project is built to help understand the fundamentals of **Redux Toolkit** i
 
 ---
 
-## 📖 Project Description
+## 📖 What I Learned
 
-This simple React app demonstrates how to:
+✅ How to set up Redux Toolkit  
+✅ Creating slices with actions and reducers  
+✅ Connecting store to React using `<Provider>`  
+✅ Reading state with `useSelector`  
+✅ Dispatching actions with `useDispatch`  
+✅ Structuring app logic cleanly into components  
 
-- Set up and use **Redux Toolkit**
-- Manage **authentication** state (login/logout)
-- Handle **counter logic** (increment, decrement, custom payload updates)
-- Use `useSelector` to read from the Redux store
-- Use `useDispatch` to trigger actions
-- Split the app into logical components and manage global state cleanly
-
-The app conditionally renders UI based on authentication state. When a user is logged in, it shows a profile and a counter. If not, it shows a login form. All of this logic is powered by Redux Toolkit behind the scenes.
+The app basically checks if a user is "logged in" (mocked).  
+If yes → shows profile + counter.  
+If no → shows login screen.
 
 ---
 
@@ -89,3 +89,6 @@ const Component = () => {
 ```
 
 ## Preview
+
+<img src="./public/1.png" />
+<img src="./public/2.png" />
